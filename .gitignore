@@ -1,0 +1,56 @@
+.DS_Store
+ 
+*.py[cod]
+ 
+# C extensions
+*.so
+ 
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+ 
+# Installer logs
+pip-log.txt
+ 
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+ 
+# Translations
+*.mo
+ 
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+tests/.cache
+venv/
+venv2/
+.vagrant/
+*.log
+
+bi/static/
+staticfiles
+
+# Generated files
+.idea
+webpack-stats*.json
+node_modules/
+docs/_build
+
+#local
+bi/bi/local_settings.py
+data.csv
+2.jpg
